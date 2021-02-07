@@ -1,5 +1,5 @@
 #name
 //input[@name="usersurname"]
-.third
+.test-email
 //input[@fourth_tag="user_phone"]
-//input[@class="form-control second"]
+//input[@class="form-control second test-address"]
