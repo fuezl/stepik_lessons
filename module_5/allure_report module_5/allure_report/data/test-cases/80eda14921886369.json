@@ -1,0 +1,102 @@
+{
+  "uid" : "80eda14921886369",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer4]",
+  "fullName" : "test_product_page.TestGuestAddToBasketFromProductPage#test_guest_can_add_product_to_basket",
+  "historyId" : "37d8cbb25bc0384fa46bf88859053efe",
+  "time" : {
+    "start" : 1615647207989,
+    "stop" : 1615647210261,
+    "duration" : 2272
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1615647206386,
+      "stop" : 1615647207988,
+      "duration" : 1602
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c1f07e1bdda3621b",
+      "name" : "stdout",
+      "source" : "c1f07e1bdda3621b.txt",
+      "type" : "text/plain",
+      "size" : 75
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1615647210263,
+      "stop" : 1615647212409,
+      "duration" : 2146
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGuestAddToBasketFromProductPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T4NR0MBK"
+  }, {
+    "name" : "thread",
+    "value" : "17536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "link",
+    "value" : "'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer4'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80eda14921886369.json",
+  "parameterValues" : [ "'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer4'" ]
+}

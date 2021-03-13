@@ -1,0 +1,99 @@
+{
+  "uid" : "e73aba064e267e21",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "fullName" : "test_product_page.TestGuestAddToBasketFromProductPage#test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "historyId" : "c6a2dae4d57ec058efc6b91e5c92a303",
+  "time" : {
+    "start" : 1615647287573,
+    "stop" : 1615647299893,
+    "duration" : 12320
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1615647285954,
+      "stop" : 1615647287572,
+      "duration" : 1618
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "520c84c92b4596c0",
+      "name" : "stdout",
+      "source" : "520c84c92b4596c0.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1615647299893,
+      "stop" : 1615647302029,
+      "duration" : 2136
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGuestAddToBasketFromProductPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T4NR0MBK"
+  }, {
+    "name" : "thread",
+    "value" : "17536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e73aba064e267e21.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,106 @@
+{
+  "uid" : "48a277067e0efe15",
+  "name" : "test_message_disappeared_after_adding_product_to_basket",
+  "fullName" : "test_product_page.TestGuestAddToBasketFromProductPage#test_message_disappeared_after_adding_product_to_basket",
+  "historyId" : "0109d0a0255fb67c809358e4d5ff71d3",
+  "time" : {
+    "start" : 1615647266971,
+    "stop" : 1615647273177,
+    "duration" : 6206
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: Success message does not disappear",
+  "statusTrace" : "self = <module_5.test_product_page.TestGuestAddToBasketFromProductPage object at 0x0000015F02F19670>, browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"62ad03ef6087a940836e3855f6c5bbc1\")>\n\n    @pytest.mark.xfail\n    def test_message_disappeared_after_adding_product_to_basket(self, browser):\n        link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207'\n        page = ProductPage(browser, link)\n        page.open()\n        page.add_product_to_basket()\n>       page.success_message_disappears()\n\nmodule_5\\test_product_page.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <module_5.pages.product_page.ProductPage object at 0x0000015F02F1AB80>\n\n    def success_message_disappears(self):\n>       assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \\\n            \"Success message does not disappear\"\nE       AssertionError: Success message does not disappear\n\nmodule_5\\pages\\product_page.py:28: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1615647265409,
+      "stop" : 1615647266970,
+      "duration" : 1561
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: Success message does not disappear",
+    "statusTrace" : "self = <module_5.test_product_page.TestGuestAddToBasketFromProductPage object at 0x0000015F02F19670>, browser = <selenium.webdriver.chrome.webdriver.WebDriver (session=\"62ad03ef6087a940836e3855f6c5bbc1\")>\n\n    @pytest.mark.xfail\n    def test_message_disappeared_after_adding_product_to_basket(self, browser):\n        link = 'http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207'\n        page = ProductPage(browser, link)\n        page.open()\n        page.add_product_to_basket()\n>       page.success_message_disappears()\n\nmodule_5\\test_product_page.py:51: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <module_5.pages.product_page.ProductPage object at 0x0000015F02F1AB80>\n\n    def success_message_disappears(self):\n>       assert self.is_disappeared(*ProductPageLocators.SUCCESS_MESSAGE), \\\n            \"Success message does not disappear\"\nE       AssertionError: Success message does not disappear\n\nmodule_5\\pages\\product_page.py:28: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7035c0e32a4dd0d2",
+      "name" : "stdout",
+      "source" : "7035c0e32a4dd0d2.txt",
+      "type" : "text/plain",
+      "size" : 49
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1615647273184,
+      "stop" : 1615647275326,
+      "duration" : 2142
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGuestAddToBasketFromProductPage"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-T4NR0MBK"
+  }, {
+    "name" : "thread",
+    "value" : "17536-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "48a277067e0efe15.json",
+  "parameterValues" : [ ]
+}

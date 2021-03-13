@@ -6,8 +6,10 @@ class BasePageLocators:
     VIEW_BASKET = (By.CSS_SELECTOR, '.basket-mini a')
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
+
 class MainPageLocators:
     LOGIN_LINK = (By.CSS_SELECTOR, '#login_link')
+
 
 class LoginPageLocators:
     AUTHORIZATION_MAIL = (By.CSS_SELECTOR, '[name="login-username"]')
@@ -19,6 +21,7 @@ class LoginPageLocators:
     REGISTRATION_CONFIRM_PASSWORD = (By.ID, 'id_registration-password2')
     REGISTRATION_SUBMIT = (By.CSS_SELECTOR, '[name="registration_submit"]')
 
+
 class ProductPageLocators:
     REVIEW = (By.ID, 'write_review')
     ADD_TO_CART = (By.CLASS_NAME, 'btn-add-to-basket')
@@ -28,6 +31,7 @@ class ProductPageLocators:
     PRODUCT_ADDED_TO_CART = (By.CSS_SELECTOR, '#messages>.alert-success:nth-child(1) strong')
     CART_PRICE = (By.CSS_SELECTOR, '.alert-info strong')
     SUCCESSFUL_ADD_TO_BASKET = (By.CSS_SELECTOR, '#messages>.alert-success:nth-child(1) .alertinner')
+
 
 class BasketPageLocators:
     PRODUCT_IN_BASKET = (By.CSS_SELECTOR, '.basket_summary')

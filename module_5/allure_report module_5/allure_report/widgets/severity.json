@@ -1,0 +1,211 @@
+[ {
+  "uid" : "668877c9a34b0428",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer8]",
+  "time" : {
+    "start" : 1615647232677,
+    "stop" : 1615647235311,
+    "duration" : 2634
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed9dbb875bc1139b",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer2]",
+  "time" : {
+    "start" : 1615647195547,
+    "stop" : 1615647198170,
+    "duration" : 2623
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c4af3e192b4880a",
+  "name" : "test_guest_can_go_to_login_page",
+  "time" : {
+    "start" : 1615647155240,
+    "stop" : 1615647157187,
+    "duration" : 1947
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80eda14921886369",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer4]",
+  "time" : {
+    "start" : 1615647207989,
+    "stop" : 1615647210261,
+    "duration" : 2272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "953ae3f59bc696ee",
+  "name" : "test_guest_should_see_login_link_on_product_page",
+  "time" : {
+    "start" : 1615647276855,
+    "stop" : 1615647278377,
+    "duration" : 1522
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce8913768e23e4f4",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer0]",
+  "time" : {
+    "start" : 1615647182471,
+    "stop" : 1615647184783,
+    "duration" : 2312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c7d2b44870d5ea6",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer3]",
+  "time" : {
+    "start" : 1615647201889,
+    "stop" : 1615647204215,
+    "duration" : 2326
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e6c34a819373ac3c",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "time" : {
+    "start" : 1615647166175,
+    "stop" : 1615647178708,
+    "duration" : 12533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6c98c5575c1aba5",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer5]",
+  "time" : {
+    "start" : 1615647214038,
+    "stop" : 1615647216446,
+    "duration" : 2408
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c9842baa0272cd4",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "time" : {
+    "start" : 1615647245240,
+    "stop" : 1615647247699,
+    "duration" : 2459
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "99faaf42469beec5",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer9]",
+  "time" : {
+    "start" : 1615647238982,
+    "stop" : 1615647241533,
+    "duration" : 2551
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3d8d7080074201e",
+  "name" : "test_guest_cant_see_success_message",
+  "time" : {
+    "start" : 1615647251421,
+    "stop" : 1615647263265,
+    "duration" : 11844
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c8d3bfc61d4a49a7",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer7]",
+  "time" : {
+    "start" : 1615647226142,
+    "stop" : 1615647228905,
+    "duration" : 2763
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "a65d0308d8b87e6f",
+  "name" : "test_guest_should_see_login_link",
+  "time" : {
+    "start" : 1615647160907,
+    "stop" : 1615647162481,
+    "duration" : 1574
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5953a9943fd2a62",
+  "name" : "test_user_can_add_product_to_basket",
+  "time" : {
+    "start" : 1615647332153,
+    "stop" : 1615647335129,
+    "duration" : 2976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48a277067e0efe15",
+  "name" : "test_message_disappeared_after_adding_product_to_basket",
+  "time" : {
+    "start" : 1615647266971,
+    "stop" : 1615647273177,
+    "duration" : 6206
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2319660a4b326346",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer6]",
+  "time" : {
+    "start" : 1615647220146,
+    "stop" : 1615647222453,
+    "duration" : 2307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e05c52c7e086d1a",
+  "name" : "test_guest_can_go_to_login_page_from_product_page",
+  "time" : {
+    "start" : 1615647282079,
+    "stop" : 1615647283794,
+    "duration" : 1715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd928ba14bc1783",
+  "name" : "test_user_cant_see_success_message",
+  "time" : {
+    "start" : 1615647309491,
+    "stop" : 1615647320987,
+    "duration" : 11496
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e73aba064e267e21",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "time" : {
+    "start" : 1615647287573,
+    "stop" : 1615647299893,
+    "duration" : 12320
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aa9ca8d0010c688",
+  "name" : "test_guest_can_add_product_to_basket[http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer1]",
+  "time" : {
+    "start" : 1615647188465,
+    "stop" : 1615647191834,
+    "duration" : 3369
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
