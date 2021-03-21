@@ -26,4 +26,4 @@ class LoginPageLocators:
     REGISTRATION_CONFIRM_PASSWORD = (By.ID, 'id_registration-password2')
     REGISTRATION_SUBMIT = (By.CSS_SELECTOR, '[name="registration_submit"]')
     SUCCESSFUL_REGISTRATION = (By.CSS_SELECTOR, ".alertinner")
-    PASSWORD_MISMATCH = (By.CSS_SELECTOR, '.form-group.has-error .error-block')
+    ERROR_MESSAGE = (By.CSS_SELECTOR, '.form-group.has-error .error-block')

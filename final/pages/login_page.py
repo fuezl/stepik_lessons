@@ -35,7 +35,14 @@ class Registration(BasePage):
     @allure.step("Проверяем наличие уведомления о том что пароли не совпадают")
     def different_passwords(self):
         wrong_password = WebDriverWait(self.browser, 5).until(
-            EC.visibility_of_element_located(LoginPageLocators.PASSWORD_MISMATCH)
+            EC.visibility_of_element_located(LoginPageLocators.ERROR_MESSAGE)
         ).text
-        print(wrong_password)
         assert wrong_password == "The two password fields didn't match.", f"Отсутствует либо некорректное уведомление о том что пароли не совпадают"
+
+    @allure.step("Проверяем наличие уведомления о том что введён слишком простой пароль")
+    def simple_password(self):
+        wrong_password = WebDriverWait(self.browser, 5).until(
+            EC.visibility_of_element_located(LoginPageLocators.ERROR_MESSAGE)
+        ).text
+        assert wrong_password == "This password is too short. It must contain at least 9 characters.", f"Отсутствует либо некорректное " \
+                                                                                                       f"уведомление о том что пароли не совпадают"

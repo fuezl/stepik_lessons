@@ -35,3 +35,17 @@ class TestLoginPage:
 
         # Assert
         step.different_passwords()
+
+    @pytest.mark.personal_tests
+    def test_simple_password_register_user(self, browser):
+        # Arrange
+        step = Registration(browser, registration_page_link)
+        step.open()
+
+        # Act
+        step.enter_registration_email()
+        step.enter_registration_password(123, 123)
+        step.click_register()
+
+        # Assert
+        step.simple_password()
