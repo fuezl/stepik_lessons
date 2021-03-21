@@ -27,3 +27,10 @@ class LoginPageLocators:
     REGISTRATION_SUBMIT = (By.CSS_SELECTOR, '[name="registration_submit"]')
     SUCCESSFUL_REGISTRATION = (By.CSS_SELECTOR, ".alertinner")
     ERROR_MESSAGE = (By.CSS_SELECTOR, '.form-group.has-error .error-block')
+
+class ProductPageLocators:
+    REVIEW = (By.CSS_SELECTOR, '#write_review')
+    REVIEW_HEADER = (By.CSS_SELECTOR, '#add_review_form [name="title"]')
+    REVIEW_MESSAGE = (By.CSS_SELECTOR, '#add_review_form #id_body')
+    TITLE_OF_REVIEW = (By.CSS_SELECTOR, '#add_review_form #id_name')
+    REVIEW_EMAIL = (By.CSS_SELECTOR, '#add_review_form #id_email')

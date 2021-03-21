@@ -1,20 +1,19 @@
-from selenium.webdriver.common.keys import Keys
 import time
+
+import allure
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+
 from .base_page import BasePage
 from .locators import LoginPageLocators
-from .locators import BasePageLocators
-import allure
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 
 
 class Registration(BasePage):
 
     @allure.step("Вводим адрес электронной почты для регистрации")
     def enter_registration_email(self):
-        self.browser.find_element(*LoginPageLocators.REGISTRATION_MAIL).send_keys(f'{str(time.time()).split(".")[0]}@test.com')
+        self.browser.find_element(*LoginPageLocators.REGISTRATION_MAIL).send_keys(
+            f'{str(time.time()).split(".")[0]}@test.com')
 
     @allure.step("Вводим пароль для регистрации")
     def enter_registration_password(self, password, confirm_password):

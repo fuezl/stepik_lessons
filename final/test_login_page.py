@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
-from .pages.login_page import Registration
-import pytest
 import time
+
+import allure
+import pytest
+
+from .pages.login_page import Registration
 
 registration_page_link = "http://selenium1py.pythonanywhere.com/accounts/login/"
 password = str(time.time())
 
 
 class TestLoginPage:
+    @allure.title("Позитивный тест регистрации пользователя")
     @pytest.mark.personal_tests
     def test_register_user(self, browser):
         # Arrange
@@ -22,6 +26,7 @@ class TestLoginPage:
         # Assert
         step.check_for_message()
 
+    @allure.title("Негативный тест регистрации пользователя с несовпадающими паролями")
     @pytest.mark.personal_tests
     def test_different_passwords_register_user(self, browser):
         # Arrange
@@ -36,6 +41,7 @@ class TestLoginPage:
         # Assert
         step.different_passwords()
 
+    @allure.title("Негативный тест регистрации пользователя со слишком простым паролем")
     @pytest.mark.personal_tests
     def test_simple_password_register_user(self, browser):
         # Arrange
