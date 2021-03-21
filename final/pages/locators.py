@@ -9,12 +9,12 @@ class BasePageLocators:
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
 
 class BasketLocators:
-    VIEW_CART = (By.CSS_SELECTOR, '.basket-mini .btn-group>a')
+    VIEW_BASKET = (By.CSS_SELECTOR, '.basket-mini .btn-group>a')
     EMPTY_BASKET = (By.CSS_SELECTOR, '#content_inner>p')
-    ADD_TO_CART = (By.CSS_SELECTOR, '.product_pod [type="submit"]')
+    ADD_TO_BASKET = (By.CSS_SELECTOR, '.product_pod [type="submit"]')
     BASKET_PRICE = (By.CSS_SELECTOR, '#basket_totals tr:nth-child(2)>th:nth-child(2)')
-    QUANTITY_IN_CART = (By.CSS_SELECTOR, '.input-group>input')
-    UPDATE_CART_QUANTITY = (By.CSS_SELECTOR, '.input-group>span')
+    QUANTITY_IN_BASKET = (By.CSS_SELECTOR, '.input-group>input')
+    UPDATE_BASKET_QUANTITY = (By.CSS_SELECTOR, '.input-group>span')
 
 class LoginPageLocators:
     AUTHORIZATION_MAIL = (By.CSS_SELECTOR, '[name="login-username"]')

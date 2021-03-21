@@ -1,8 +1,10 @@
 # -*- coding: utf-8 -*-
 from .pages.login_page import Registration
 import pytest
+import time
 
 registration_page_link = "http://selenium1py.pythonanywhere.com/accounts/login/"
+password = str(time.time())
 
 
 class TestLoginPage:
@@ -14,7 +16,8 @@ class TestLoginPage:
 
         # Act
         step.enter_registration_email()
-        step.enter_registration_password()
+        step.enter_registration_password(password, password)
+        step.click_register()
 
         # Assert
         step.check_for_message()
@@ -27,8 +30,8 @@ class TestLoginPage:
 
         # Act
         step.enter_registration_email()
-        step.enter_registration_wrong_password()
+        step.enter_registration_password(password, password + '1')
+        step.click_register()
 
         # Assert
         step.different_passwords()
-        # time.sleep(5)
