@@ -7,6 +7,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from .base_page import BasePage
 from .locators import LoginPageLocators
 
+registration_password = str(time.time())
+
 
 class Registration(BasePage):
 
@@ -16,7 +18,7 @@ class Registration(BasePage):
             f'{str(time.time()).split(".")[0]}@test.com')
 
     @allure.step("Вводим пароль для регистрации")
-    def enter_registration_password(self, password, confirm_password):
+    def enter_registration_password(self, password=registration_password, confirm_password=registration_password):
         self.browser.find_element(*LoginPageLocators.REGISTRATION_PASSWORD).send_keys(password)
         self.browser.find_element(*LoginPageLocators.REGISTRATION_CONFIRM_PASSWORD).send_keys(confirm_password)
 

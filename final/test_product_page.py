@@ -13,7 +13,7 @@ class TestProductPage:
     @pytest.mark.parametrize('product', ["/catalogue/coders-at-work_207/",
                                          "/catalogue/coders-at-work_208/",
                                          "/catalogue/coders-at-work_209/"])
-    def test_register_user(self, browser, product):
+    def test_checking_revocation_fields(self, browser, product):
         # Arrange
         step = ProductPage(browser, f"{link}{product}")
         step.open()
